@@ -10,6 +10,6 @@ A API utilizada no desenvolvimento deste aplicativo foi a da OpenWeather: https:
 The API used in the development of this application was provided by OpenWeather.
 
 
-# TESTE:
+# DEMO:
 
 https://weather-lb.netlify.app/
