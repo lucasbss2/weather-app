@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Como está o clima?</title>
+        <meta charset="utf-8" />
+        <!--[if IE]>
+        <script src="js/html5shiv.js"></script>
+        <![endif]-->
+        <link rel = "stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id = "homeContainer">
+            <div id = "searchContainer">
+                <form onsubmit = "handleSubmit (event);">
+                <input class = "searchControl" id = "searchInput" type = "text" placeholder = "Digite o nome da sua cidade" autofocus>
+                <button class = "searchControl" id = "searchButton" type = "submit">Pesquisar</button>
+                </form>
+            </div>
+            <div id = "weatherContainer">
+                <div id = "weatherDescription">
+                    <h1 id = "cityHeader"></h1>
+            <div id = "weatherMain">
+                <div id = "temperature"></div>
+                <div id = "weatherDescriptionHeader"></div>
+                <div><img id = "weatherIcon"></div>
+            </div>
+            <div id = "bottomDetails">
+                <div id = "windSpeed"></div>
+                <div id = "humidity"></div>
+            </div>
+                </div>
+            </div>  
+        </div>
+        <script src = "script.js"></script>
+    </body>
+</html>
