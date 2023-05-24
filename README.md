@@ -1,6 +1,6 @@
 # weather-app
 Aplicativo feito em JavaScript. O usuário informa a cidade e a API retorna dados como: temperatura, velocidade do vento e umidade.
-App made in JavaScript. The user inform the city and the API returns data such as: temperature, wind speed and humidity.
+App made in JavaScript. The user informs the city and the API returns data such as: temperature, wind speed and humidity.
 
 
 # API:
